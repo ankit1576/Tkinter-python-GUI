@@ -65,11 +65,11 @@ root = Tk()
 root.geometry("300x500")
 root.minsize(300, 500)
 root.maxsize(300, 500)
-root.iconbitmap('icon.ico')
+root.iconbitmap('images/icon.ico')
 root.title("WhatsApp Login")
 
 # Load and set the background image
-bg_image = Image.open("bg.jpg").resize((400, 600))
+bg_image = Image.open("images/bg.jpg").resize((400, 600))
 bg_photo = ImageTk.PhotoImage(bg_image)
 
 canvas = Canvas(root, width=300, height=500)
@@ -77,7 +77,7 @@ canvas.pack(fill="both", expand=True)
 canvas.create_image(0, 0, anchor="nw", image=bg_photo)
 
 # Add the logo on the canvas
-logo_image = Image.open("logo3.png").resize((200, 200))
+logo_image = Image.open("images/logo3.png").resize((200, 200))
 logo_photo = ImageTk.PhotoImage(logo_image)
 canvas.create_image(51, 20, anchor="nw", image=logo_photo)
 
