@@ -3,6 +3,8 @@
 
 This repository contains several GUI applications created using the Tkinter library in Python. The applications include a news app, a scientific calculator, a photo viewer, and a WhatsApp login UI clone. Each application is designed to provide a user-friendly interface while showcasing the capabilities of Tkinter.
 
+![image](https://github.com/user-attachments/assets/064cf3f1-05dc-4a73-ad02-1fb30ae7cf4d)
+
 ## Table of Contents
 - [Applications](#applications)
 - [Usage](#usage)
